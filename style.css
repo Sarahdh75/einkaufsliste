@@ -1,0 +1,32 @@
+body {
+  background-color: #ade8e5;
+  color: #222222;
+  font-family: 'Clearface', serif; font-size: 16px; margin: 0; padding: 16; border: 2px solid #4857cb; img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+} text-align: center; line-height: 1.6; a:hover { background-color: #4857cb; color: #f5f0e8; }
+}
+.profil {
+  display: flex; flex-wrap: wrap;
+}
+nav {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+}
+@media (max-width: 600px) {
+  .profil {
+    flex-direction: column;
+  }
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
